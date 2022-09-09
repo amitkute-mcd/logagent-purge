@@ -1,0 +1,21 @@
+{
+  "name": "logagent-purge",
+  "version": "1.0.0",
+  "description": "Plugin to purge files",
+  "main": "index.js",
+  "scripts": {},
+  "author": "André Amaral",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/restaurant-technology-org/logagent-purge"
+  },
+  "keywords": [
+    "logagent",
+    "purge",
+    "events",
+    "plugin"
+  ],
+  "bugs": {},
+  "homepage": "https://github.com/restaurant-technology-org/logagent-purge#readme"
+}
