@@ -8,7 +8,7 @@ npm i -g @sematext/logagent
 ```
 2) Install this plugin
 ```
-npm i -g https://github.com/amitkute-mcd/logagent-purge
+npm i -g https://github.com/restaurant-technology-org/logagent-purge
 ```
 3) Configure Log Agent
 ```
