@@ -80,8 +80,12 @@ class PurgeData {
   }
 
   validateConfigs(config) {
-    config.extensions ??= config.extensions = [".log"];
-    config.days ??= 7;
+    if(!config.extensions)
+      config.extensions = config.extensions = [".log"];
+
+    if(!config.days)
+      config.days = 7;
+      
     const fn = config.configFile.output.files.fileName;
     if (!config.path && fn) {
       let path = /(\w*\.\w*)$|(\w*)$/.test()
